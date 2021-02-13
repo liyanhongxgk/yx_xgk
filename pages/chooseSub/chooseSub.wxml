@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="logo">
+  </view>
+  <view class="condition">
+  <text class="cItem">省份</text>
+  <text class="cItem">年份</text>
+  <text class="cItem">大学</text>
+  <text class="cItem">专业</text>
+  </view>
+  <view class="selectSubs">
+    <view class="sItem sItem0"   wx:for="{{subjects}}" hover-class="sItemHover" bindtap="changeColor">
+    <text>{{item.name}}</text>
+  </view>
+  </view>
+  
+  <view class="fetchResult">
+  
+  <button type="primary">获取结果</button></view>
+</view>

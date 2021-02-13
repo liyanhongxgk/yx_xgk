@@ -1,0 +1,54 @@
+/* pages/chooseSub/chooseSub.wxss */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+} 
+.logo{
+  background-color: aqua;
+  width: 750rpx;
+  height:200rpx;
+}
+.condition{
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
+.cItem{
+  display: block;
+  width: 150rpx;
+}
+.selectSubs{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.sItem{
+  display: block;
+  width:150rpx;
+  background-color: blue;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+
+.sItem0{
+  background-color: blue;
+}
+
+.sItem1{
+  background-color:green;
+}
+
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.sItemHover{
+  background-color: green;
+}
+
+
